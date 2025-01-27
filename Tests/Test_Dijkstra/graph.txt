@@ -1,0 +1,25 @@
+graph representation : 
+start point : (-3,1)
+goal point : (2,0)
+obstacles : 
+new obstacle : 
+Segment : (0,0) -> (1,0)
+Segment : (1,0) -> (1,1)
+Segment : (1,1) -> (0,1)
+Segment : (0,1) -> (0,0)
+all points : 
+(-3,1)
+(2,0)
+(0,0)
+(1,0)
+(1,1)
+(0,1)
+graph arcs : 
+Segment : (0,0) -> (1,0)
+Segment : (1,0) -> (1,1)
+Segment : (1,1) -> (0,1)
+Segment : (0,1) -> (0,0)
+Segment : (-3,1) -> (0,0)
+Segment : (-3,1) -> (0,1)
+Segment : (2,0) -> (1,0)
+Segment : (2,0) -> (1,1)
