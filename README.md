@@ -53,6 +53,7 @@ About the code restriction :
 - Currently, there must be enough space between obstacles to allow for padding. Future improvements could handle intersecting obstacles by merging them into larger obstacles.
 - Interpolating a shape using a polygon? → This could be considered if no solution is found for computing the barycenter and area with parameterized arcs and circular arcs.
 - Adjust margins and sample sizes for testing on a real track with parameterized arcs for arcs intersections, if necessary (requirements will vary depending on the scale of the problem).
+
 What can be added : 
 - Obstacles could be circular, movable, or even cease to be obstacles, with varying alert levels depending on time dynamics, making the graph of the problem constantly different.
 - Adapt arcs and padding for non-polygonal shapes (requires research on how to properly achieve this). Improve padding optimization beyond simple rectangles, considering whether an object can rotate and, later, incorporating the physical properties of the environment to make the padding more realistic.
